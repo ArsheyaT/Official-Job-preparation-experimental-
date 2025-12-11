@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kyle – Job Interview Preparation</title>
+  <link rel="stylesheet" href="Official_GITHUB_experimental.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/profile.jpg" alt="Professional headshot of Kyle" class="profile-pic" />
+      <h1>Kyle – Front-End Developer</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#videos">Video Responses</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#documents">Resume & Cover Letter</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Job Interview Preparation Project</h2>
+      <p>Explore my recorded interview responses, selected work, and professional materials.</p>
+    </section>
+
+    <!-- Video Responses -->
+    <section id="videos" class="section">
+      <h3>Video Responses</h3>
+      <div class="video-grid">
+        <div class="video-card">
+          <h4>Tell me about yourself</h4>
+          <video controls poster="images/poster-play.png">
+            <source src="c:\Users\arshe\OneDrive\Documents\school\Assets\experimental_audio.mp4" type="video/mp4" />
+            Your browser does not support video.
+          </video>
+        </div>
+        <div class="video-card">
+          <h4>Why should we hire you?</h4>
+          <video controls poster="images/poster-play.png">
+            <source src="videos/Q2.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/project1.jpg" alt="Project screenshot" />
+          <h4>Responsive Portfolio</h4>
+          <p>A modern portfolio using Flexbox and accessibility best practices.</p>
+          <a href="https://github.com/youruser/project1" target="_blank">GitHub</a>
+        </div>
+        <div class="project-card">
+          <img src="images/project2.jpg" alt="Project screenshot" />
+          <h4>Analytics Dashboard</h4>
+          <p>A clean dashboard with thoughtful color contrast and hover states.</p>
+          <a href="https://github.com/youruser/project2" target="_blank">GitHub</a>
+        </div>
+        <div class="project-card">
+          <img src="images/project3.jpg" alt="Project screenshot" />
+          <h4>Email Template</h4>
+          <p>Accessible email components tested for alignment and fallback styles.</p>
+          <a href="https://github.com/youruser/project3" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents -->
+<section id="documents" class="section">
+  <h3>Resume & Cover Letter</h3>
+  <div class="doc-grid">
+    <a href="c:\Users\arshe\OneDrive\Documents\school\documents\Official_cover_letter_Arsheya_Talebi_PDF_experimental.pdf" target="_blank">📄 View Resume</a>
+<iframe src="c:\Users\arshe\OneDrive\Documents\school\documents\Official_cover_letter_Arsheya_Talebi_PDF_experimental.pdf" width="100%" height="600px"></iframe>
+    <a href="c:\Users\arshe\OneDrive\Documents\school\documents\Official_cover_letter_Arsheya_Talebi_PDF_experimental.pdf" target="_blank" class="btn-doc">📄 Cover Letter (PDF)</a>
+  </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:kyle@example.com">kyle@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">Connect here</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Kyle. Built with HTML, CSS, Flexbox, and Media Queries.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
